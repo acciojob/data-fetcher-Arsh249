@@ -18,7 +18,7 @@ const App = () => {
         setLoading(false);
       }
     };
-
+ 
     fetchData();
   }, []);
 
