@@ -15,7 +15,7 @@ const App = () => {
         setData(jsonData);
         setLoading(false);
       } catch (error) {
-        console.error('An error occurred: ', error);
+        console.error(`An error occurred: ${error}`);
         setLoading(false);
       }
     };
