@@ -15,7 +15,7 @@ const App = () => {
         setData(jsonData);
         setLoading(false);
       } catch (error) {
-        console.error('Error fetching data:', error);
+        console.error('An error occurred: ', error);
         setLoading(false);
       }
     };
@@ -25,7 +25,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Data fetched from API</h1>
+      <h1>Data Fetched from API</h1>
       {loading ? (
         <p>Loading...</p>
       ) : (
